@@ -15,7 +15,7 @@
             revision="alioth-r-oss"/>
 
     <!--Device Trees-->
-    <project path="device/xiaomi/alioth" name="AndroidBlobs/vendor_xiaomi_alioth" remote="device" />
+    <project path="device/xiaomi/alioth" name="AndroidBlobs/device_xiaomi_alioth" remote="device" />
 
 
     <!--Kernel-->
