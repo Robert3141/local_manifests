@@ -19,6 +19,11 @@
             revision="alioth-r-oss"/>
         <project path="kernel/xiaomi/alioth" name="MiCode/Xiaomi_Kernel_OpenSource" remote="kernel" />
 
+        <!-- generic snapdragon 870 -->
+        <remote name="sdm870"
+            fetch="https://github.com"
+            revision="main" />
+        <project path="device/xiaomi/sdm870-common" name="Robert3141/android_device_xiaomi_sdm870-common" remote="sdm870"/>
     
 
 
