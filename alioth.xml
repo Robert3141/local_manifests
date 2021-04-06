@@ -17,7 +17,7 @@
         <remote name="kernel"
             fetch="https://github.com"
             revision="alioth-r-oss"/>
-        <project path="kernel/xiaomi/aioth" name="MiCode/Xiaomi_Kernel_OpenSource" remote="kernel" />
+        <project path="kernel/xiaomi/alioth" name="MiCode/Xiaomi_Kernel_OpenSource" remote="kernel" />
 
     
 
