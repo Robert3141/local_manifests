@@ -10,7 +10,7 @@
         <!-- device -->
         <remote name="device"
             fetch="https://github.com"
-            revision="11-RKQ1.200826.002-V12.0.6.0.RKHCNXM-release-keys-Mon-Mar-8-22-17-12-CST-2021"/>
+            revision="lineage-18.1"/>
         <project path="device/xiaomi/alioth" name="Robert3141/device_xiaomi_alioth" remote="device" />
         
         <!-- kernel -->
