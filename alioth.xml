@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="11-RKQ1.200826.002-V12.0.6.0.RKHCNXM-release-keys-Mon-Mar-8-22-17-12-CST-2021" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="11-RKQ1.200826.002-V12.0.6.0.RKHCNXM-release-keys-Mon-Mar-8-22-17-12-CST-2021"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="alioth-r-oss"/>
+
+    <!--Device Trees-->
+    <project path="device/xiaomi/alioth" name="AndroidBlobs/vendor_xiaomi_alioth" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/xiaomi/aioth" name="MiCode/Xiaomi_Kernel_OpenSource" remote="kernel" />
+
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/xiaomi/alioth" name="AndroidBlobs/vendor_xiaomi_alioth" remote="vendor" />
+</manifest>
