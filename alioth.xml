@@ -20,10 +20,10 @@
         <project path="kernel/xiaomi/alioth" name="MiCode/Xiaomi_Kernel_OpenSource" remote="kernel" />
 
         <!-- generic snapdragon 870 -->
-        <remote name="sdm870"
+        <remote name="sm8250-ac"
             fetch="https://github.com"
-            revision="main" />
-        <project path="device/xiaomi/sdm870-common" name="Robert3141/android_device_xiaomi_sdm870-common" remote="sdm870"/>
+            revision="lineage-18.1" />
+        <project path="device/xiaomi/sm8250-ac-common" name="Robert3141/android_device_xiaomi_sm8250-ac-common" remote="sm8250-ac"/>
     
 
 
