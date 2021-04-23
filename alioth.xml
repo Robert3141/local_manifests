@@ -29,7 +29,7 @@
         <remote name="sm8250-vendor"
             fetch="https://github.com"
             revision="eleven" />
-        <project path="vendor/xiaomi/sm8250-ac-common" name="ancient-devices/vendor_xiaomi_sm8250-common" remote="sm8250-vendor"/>
+        <project path="vendor/xiaomi/sm8250-common" name="ancient-devices/vendor_xiaomi_sm8250-common" remote="sm8250-vendor"/>
 
 
     
