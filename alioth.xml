@@ -16,15 +16,20 @@
         <!-- kernel -->
         <remote name="kernel"
             fetch="https://github.com"
-            revision="alioth-r-oss"/>
-        <project path="kernel/xiaomi/alioth" name="MiCode/Xiaomi_Kernel_OpenSource" remote="kernel" />
+            revision="Rika"/>
+        <project path="kernel/xiaomi/alioth" name=" hentaiOS-Devices/device_xiaomi_alioth-kernel " remote="kernel" />
 
-        <!-- generic snapdragon 870 -->
-        <remote name="sm8250-ac"
+        <!-- generic sm8250 -->
+        <!-- generic device -->
+        <remote name="sm8250"
             fetch="https://github.com"
             revision="lineage-18.1" />
-        <project path="device/xiaomi/sm8250-ac-common" name="Robert3141/android_device_xiaomi_sm8250-ac-common" remote="sm8250-ac"/>
-    
+        <project path="device/xiaomi/sm8250common" name=" xiaomi-sm8250-devs/android_device_xiaomi_sm8250-common " remote="sm8250"/>
+        <!-- generic vendor -->
+        <!--<remote name="sm8250-vendor"
+            fetch="https://github.com"
+            revision="11" />
+        <project path="vendor/xiaomi/sm8250-ac-common" name="Robert3141/vendor_xiaomi_sm8250-common" remote="sm8250-vendor"/>-->
 
 
     
