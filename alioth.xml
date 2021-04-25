@@ -16,8 +16,8 @@
         <!-- kernel -->
         <remote name="kernel"
             fetch="https://github.com"
-            revision="Rika"/>
-        <project path="kernel/xiaomi/alioth" name="hentaiOS-Devices/device_xiaomi_alioth-kernel" remote="kernel" />
+            revision="alioth-r-oss"/>
+        <project path="kernel/xiaomi/alioth" name="MiCode/kernel_devicetree" remote="kernel" />
 
         <!-- generic sm8250 -->
         <!-- generic device -->
