@@ -28,7 +28,7 @@
         <!-- generic vendor -->
         <remote name="sm8250-vendor"
             fetch="https://github.com"
-            revision="eleven" />
+            revision="11" />
         <project path="vendor/xiaomi/sm8250-common" name="NusantaraROM-Devices/vendor_xiaomi_sm8250-common" remote="sm8250-vendor"/>
 
 
