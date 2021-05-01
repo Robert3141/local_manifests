@@ -6,6 +6,12 @@
             fetch="https://github.com"
             revision="miui_ALIOTHEEAGlobal_V12.0.4.0.RKHEUXM_4e7ecfc2cf_11.0" />
         <project path="vendor/xiaomi/alioth" name="Robert3141/vendor_xiaomi_alioth" remote="vendor" />
+
+        <!-- hardware -->
+        <remote name="hardware"
+            fetch="https://github.com"
+            revision="lineage-18.1" />
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hardware" />
         
         <!-- device -->
         <remote name="device"
