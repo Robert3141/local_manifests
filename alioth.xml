@@ -37,10 +37,10 @@
             revision="11" />
         <project path="vendor/xiaomi/sm8250-common" name="NusantaraROM-Devices/vendor_xiaomi_sm8250-common" remote="sm8250-vendor"/>
         <!-- generic kernel -->
-        <!--<remote name="sm8250-kernel"
+        <remote name="sm8250-kernel"
             fetch="https://github.com"
             revision="lineage-18.1" />
-        <project path="kernel/xiaomi/sm8250" name="xiaomi-sm8250-devs/android_kernel_xiaomi_sm8250" remote="sm8250-kernel"/>-->
+        <project path="kernel/xiaomi/sm8250" name="xiaomi-sm8250-devs/android_kernel_xiaomi_sm8250" remote="sm8250-kernel"/>
 
     
 </manifest>
