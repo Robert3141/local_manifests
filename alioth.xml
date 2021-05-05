@@ -28,12 +28,12 @@
         <remote name="sm8250"
             fetch="https://github.com"
             revision="los-18.1" />
-        <project path="device/xiaomi/sm8250-common" name="AliothDevelopment/device_xiaomi_sm8250" remote="sm8250"/>
+        <project path="device/xiaomi/sm8250" name="AliothDevelopment/device_xiaomi_sm8250" remote="sm8250"/>
         <!-- generic vendor -->
         <remote name="sm8250-vendor"
             fetch="https://github.com"
             revision="los-18.1" />
-        <project path="vendor/xiaomi/sm8250-common" name="AliothDevelopment/vendor_xiaomi_sm8250" remote="sm8250-vendor"/>
+        <project path="vendor/xiaomi/sm8250" name="AliothDevelopment/vendor_xiaomi_sm8250" remote="sm8250-vendor"/>
 
     
 </manifest>
