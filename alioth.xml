@@ -1,46 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
+        <!-- device -->
+        <remote name="device"
+            fetch="https://github.com"
+            revision="los-18.1"/>
+        <project path="device/xiaomi/alioth" name="AliothDevelopment/device_xiaomi_alioth" remote="device" />
         <!-- vendor -->
         <remote name="vendor"
             fetch="https://github.com"
-            revision="miui_ALIOTHEEAGlobal_V12.0.4.0.RKHEUXM_4e7ecfc2cf_11.0" />
-        <project path="vendor/xiaomi/alioth" name="Robert3141/vendor_xiaomi_alioth" remote="vendor" />
+            revision="los-18.1" />
+        <project path="vendor/xiaomi/alioth" name="AliothDevelopment/vendor_xiaomi_alioth" remote="vendor" />
+        <!-- kernel -->
+        <remote name="kernel"
+            fetch="https://github.com"
+            revision="los-18.1"/>
+        <project path="kernel/xiaomi/alioth" name="AliothDevelopment/kernel_xiaomi_alioth" remote="kernel" />
 
         <!-- hardware -->
         <remote name="hardware"
             fetch="https://github.com"
             revision="lineage-18.1" />
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hardware" />
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hardware" />      
         
-        <!-- device -->
-        <remote name="device"
-            fetch="https://github.com"
-            revision="lineage-18.1"/>
-        <project path="device/xiaomi/alioth" name="Robert3141/device_xiaomi_alioth" remote="device" />
-        
-        <!-- kernel -->
-        <remote name="kernel"
-            fetch="https://github.com"
-            revision="alioth-r-oss"/>
-        <project path="kernel/xiaomi/alioth" name="MiCode/kernel_devicetree" remote="kernel" />
-
         <!-- generic sm8250 -->
         <!-- generic device -->
         <remote name="sm8250"
             fetch="https://github.com"
-            revision="11" />
-        <project path="device/xiaomi/sm8250-common" name="NusantaraROM-Devices/device_xiaomi_sm8250-common" remote="sm8250"/>
+            revision="los-18.1" />
+        <project path="device/xiaomi/sm8250-common" name="AliothDevelopment/device_xiaomi_sm8250" remote="sm8250"/>
         <!-- generic vendor -->
         <remote name="sm8250-vendor"
             fetch="https://github.com"
-            revision="11" />
-        <project path="vendor/xiaomi/sm8250-common" name="NusantaraROM-Devices/vendor_xiaomi_sm8250-common" remote="sm8250-vendor"/>
-        <!-- generic kernel -->
-        <remote name="sm8250-kernel"
-            fetch="https://github.com"
-            revision="lineage-18.1" />
-        <project path="kernel/xiaomi/sm8250" name="xiaomi-sm8250-devs/android_kernel_xiaomi_sm8250" remote="sm8250-kernel"/>
+            revision="los-18.1" />
+        <project path="vendor/xiaomi/sm8250-common" name="AliothDevelopment/vendor_xiaomi_sm8250" remote="sm8250-vendor"/>
 
     
 </manifest>
