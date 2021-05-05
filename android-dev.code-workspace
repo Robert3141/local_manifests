@@ -31,5 +31,56 @@
 	],
 	"settings": {
 		"terminal.integrated.cwd": "/android/lineage"
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "repo sync",
+				"type": "shell",
+				"command": "repo sync",
+				"options": {
+					"cwd": "/android/lineage"
+				}
+			},
+			{
+				"label": "repo sync --force-sync",
+				"type": "shell",
+				"command": "repo sync --force-sync",
+				"options": {
+					"cwd": "/android/lineage"
+				}
+			},
+			{
+				"label": "build and log",
+				"type": "shell",
+				"command": "bash /android/logs/command.sh"
+			}
+		]
+	},
+	"launch": {
+		"configurations": [
+			{
+				"name": "repo sync",
+				"type": "node",
+				"request": "attach",
+				"preLaunchTask": "repo sync"
+			},
+			{
+				"name": "repo sync --force-sync",
+				"type": "node",
+				"request": "attach",
+				"preLaunchTask": "repo sync --force-sync"
+			},
+			{
+				"name": "build",
+				"type": "node",
+				"request": "attach",
+				"preLaunchTask": "build and log"
+			},
+		],
+		"compounds": [
+			
+		]
 	}
 }
