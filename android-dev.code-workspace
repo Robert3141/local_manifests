@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"name": "device_alioth",
+			"path": "/android/lineage/device/xiaomi/alioth"
+		},
+		{
+			"name": "device_sm8250-common",
+			"path": "/android/lineage/device/xiaomi/sm8250-common"
+		},
+		{
+			"name": "vendor_alioth",
+			"path": "/android/lineage/vendor/xiaomi/alioth"
+		},
+		{
+			"name": "vendor_sm8250-common",
+			"path": "/android/lineage/vendor/xiaomi/sm8250-common"
+		},
+		{
+			"name": "kernel_alioth",
+			"path": "/android/lineage/kernel/xiaomi/alioth"
+		},
+		{
+			"name": "logs",
+			"path": "/android/logs"
+		},
+		{
+			"name": "local_manifests",
+			"path": "/android/lineage/.repo/local_manifests"
+		}
+	],
+	"settings": {
+		"terminal.integrated.cwd": "/android/lineage"
+	}
+}
