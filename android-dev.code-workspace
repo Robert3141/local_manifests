@@ -30,7 +30,13 @@
 		}
 	],
 	"settings": {
-		"terminal.integrated.cwd": "/android/lineage"
+		"terminal.integrated.cwd": "/android/lineage",
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/bower_components": true,
+			"**/*.code-search": true,
+			"**/*.log":true
+		}
 	},
 	"tasks": {
 		"version": "2.0.0",
