@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
+        <!-- remotes -->
+        <!--<remote name="local-github"
+                fetch="https://github.com" />-->
+        <remote name="havoc-local"
+                fetch="https://github.com"
+                revision="havoc-eleven" />
+        <remote name="lineage-local"
+                fetch="https://github.com"
+                revision="lineage-18.1" />
+        <remote name="los"
+                fetch="https://github.com"
+                revision="los-18.1" />
+        
+
         <!-- device -->
-        <remote name="device"
-            fetch="https://github.com"
-            revision="havoc-eleven"/>
-        <project path="device/xiaomi/alioth" name="Robert3141/device_xiaomi_alioth" remote="device" />
+        <project path="device/xiaomi/alioth" name="Robert3141/device_xiaomi_alioth" remote="havoc-local" />
         <!-- vendor -->
-        <remote name="vendor"
-            fetch="https://github.com"
-            revision="los-18.1" />
-        <project path="vendor/xiaomi/alioth" name="AliothDevelopment/vendor_xiaomi_alioth" remote="vendor" />
+        <project path="vendor/xiaomi/alioth" name="AliothDevelopment/vendor_xiaomi_alioth" remote="los" />
         <!-- kernel -->
-        <remote name="kernel"
-            fetch="https://github.com"
-            revision="los-18.1"/>
-        <project path="kernel/xiaomi/alioth" name="AliothDevelopment/kernel_xiaomi_alioth" remote="kernel" />
+        <project path="kernel/xiaomi/alioth" name="AliothDevelopment/kernel_xiaomi_alioth" remote="los" />
 
         <!-- hardware -->
-        <remote name="hardware"
-            fetch="https://github.com"
-            revision="lineage-18.1" />
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hardware" />      
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="lineage-local" />
+        <remove-project name="android_hardware_qcom_display" />
+        <project path="hardware/qcom-caf/sm8250/display" name="AliothDevelopment/hardware_qcom-caf_sm8250_display" remote="los"/>   
         
         <!-- generic sm8250 -->
         <!-- generic device -->
-        <remote name="sm8250"
-            fetch="https://github.com"
-            revision="havoc-eleven" />
-        <project path="device/xiaomi/sm8250-common" name="Robert3141/device_xiaomi_sm8250" remote="sm8250"/>
+        <project path="device/xiaomi/sm8250-common" name="Robert3141/device_xiaomi_sm8250" remote="havoc-local"/>
         <!-- generic vendor -->
-        <remote name="sm8250-vendor"
-            fetch="https://github.com"
-            revision="los-18.1" />
-        <project path="vendor/xiaomi/sm8250-common" name="AliothDevelopment/vendor_xiaomi_sm8250" remote="sm8250-vendor"/>
+        <project path="vendor/xiaomi/sm8250-common" name="AliothDevelopment/vendor_xiaomi_sm8250" remote="los"/>
 
     
 </manifest>
