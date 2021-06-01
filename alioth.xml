@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<manifest>
-        <!-- remotes -->
-        <!--<remote name="local-github"
-                fetch="https://github.com" />-->
-        <remote name="havoc-local"
-                fetch="https://github.com"
-                revision="havoc-eleven" />
-        <remote name="lineage-local"
-                fetch="https://github.com"
-                revision="lineage-18.1" />
-        <remote name="los"
-                fetch="https://github.com"
-                revision="los-18.1" />
-        
+<manifest>           
 
         <!-- device -->
-        <project path="device/xiaomi/alioth" name="Robert3141/device_xiaomi_alioth" remote="havoc-local" />
+        <project path="device/xiaomi/alioth"
+                name="Robert3141/device_xiaomi_alioth"
+                remote="github"
+                revision="havoc" />
         <!-- vendor -->
-        <project path="vendor/xiaomi/alioth" name="AliothDevelopment/vendor_xiaomi_alioth" remote="los" />
+        <project path="vendor/xiaomi/alioth"
+                name="AliothDevelopment/vendor_xiaomi_alioth"
+                remote="github"
+                revision="los-18.1" />
         <!-- kernel -->
-        <project path="kernel/xiaomi/alioth" name="AliothDevelopment/kernel_xiaomi_alioth" remote="los" />
+        <project path="kernel/xiaomi/alioth" 
+                name="AliothDevelopment/kernel_xiaomi_alioth" 
+                remote="github"
+                revision="los-18.1" />
 
         <!-- hardware -->
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="lineage-local" />
         <remove-project name="android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/sm8250/display" name="AliothDevelopment/hardware_qcom-caf_sm8250_display" remote="los"/>   
+        <project path="hardware/qcom-caf/sm8250/display"
+                name="AliothDevelopment/hardware_qcom-caf_sm8250_display"
+                remote="github"
+                revision="los-18.1" />   
         
         <!-- generic sm8250 -->
         <!-- generic device -->
-        <project path="device/xiaomi/sm8250-common" name="Robert3141/device_xiaomi_sm8250" remote="havoc-local"/>
+        <project path="device/xiaomi/sm8250-common"
+                name="Robert3141/device_xiaomi_sm8250"
+                remote="github"
+                revision="havoc"/>
         <!-- generic vendor -->
-        <project path="vendor/xiaomi/sm8250-common" name="AliothDevelopment/vendor_xiaomi_sm8250" remote="los"/>
+        <project path="vendor/xiaomi/sm8250-common"
+                name="AliothDevelopment/vendor_xiaomi_sm8250"
+                remote="github"
+                revision="los-18.1" />
 
     
 </manifest>
