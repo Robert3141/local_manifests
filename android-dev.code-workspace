@@ -36,6 +36,9 @@
 			"**/bower_components": true,
 			"**/*.code-search": true,
 			"**/*.log":true
+		},
+		"files.associations": {
+			"tombstone_*": "log"
 		}
 	},
 	"tasks": {
@@ -60,7 +63,7 @@
 			{
 				"label": "build and log",
 				"type": "shell",
-				"command": "bash /android/logs/command.sh"
+				"command": "bash /android/logs/havoc.sh"
 			}
 		]
 	},
