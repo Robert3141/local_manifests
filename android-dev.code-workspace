@@ -2,23 +2,23 @@
 	"folders": [
 		{
 			"name": "device_alioth",
-			"path": "/android/lineage/device/xiaomi/alioth"
+			"path": "/android/aicp/device/xiaomi/alioth"
 		},
 		{
 			"name": "device_sm8250-common",
-			"path": "/android/lineage/device/xiaomi/sm8250-common"
+			"path": "/android/aicp/device/xiaomi/sm8250-common"
 		},
 		{
 			"name": "vendor_alioth",
-			"path": "/android/lineage/vendor/xiaomi/alioth"
+			"path": "/android/aicp/vendor/xiaomi/alioth"
 		},
 		{
 			"name": "vendor_sm8250-common",
-			"path": "/android/lineage/vendor/xiaomi/sm8250-common"
+			"path": "/android/aicp/vendor/xiaomi/sm8250-common"
 		},
 		{
 			"name": "kernel_alioth",
-			"path": "/android/lineage/kernel/xiaomi/alioth"
+			"path": "/android/aicp/kernel/xiaomi/alioth"
 		},
 		{
 			"name": "logs",
@@ -26,11 +26,11 @@
 		},
 		{
 			"name": "local_manifests",
-			"path": "/android/lineage/.repo/local_manifests"
+			"path": "/android/aicp/.repo/local_manifests"
 		}
 	],
 	"settings": {
-		"terminal.integrated.cwd": "/android/lineage",
+		"terminal.integrated.cwd": "/android/aicp",
 		"search.exclude": {
 			"**/node_modules": true,
 			"**/bower_components": true,
@@ -49,7 +49,7 @@
 				"type": "shell",
 				"command": "repo sync",
 				"options": {
-					"cwd": "/android/lineage"
+					"cwd": "/android/aicp"
 				}
 			},
 			{
@@ -57,7 +57,7 @@
 				"type": "shell",
 				"command": "repo sync --force-sync",
 				"options": {
-					"cwd": "/android/lineage"
+					"cwd": "/android/aicp"
 				}
 			},*/
 			{
