@@ -4,9 +4,9 @@
 
         <!-- device -->
         <project path="device/xiaomi/alioth"
-                name="AliothDevelopment/device_xiaomi_alioth"
+                name="Robert3141/device_xiaomi_alioth"
                 remote="github"
-                revision="los-18.1" />
+                revision="aicp" />
         <!-- vendor -->
         <project path="vendor/xiaomi/alioth"
                 name="AliothDevelopment/vendor_xiaomi_alioth"
