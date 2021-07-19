@@ -9,9 +9,9 @@
                 revision="aicp" />
         <!-- vendor -->
         <project path="vendor/xiaomi/alioth"
-                name="AliothDevelopment/vendor_xiaomi_alioth"
-                remote="github"
-                revision="los-18.1" />
+                name="vendorosass/vendor_xiaomi_alioth"
+                remote="gitlab"
+                revision="12.5.1" />
         <!-- kernel -->
         <project path="kernel/xiaomi/alioth" 
                 name="AliothDevelopment/kernel_xiaomi_alioth" 
