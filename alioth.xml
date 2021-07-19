@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<manifest>           
+<manifest>      
 
         <!-- device -->
         <project path="device/xiaomi/alioth"
@@ -14,9 +14,9 @@
                 revision="12.5.1" />
         <!-- kernel -->
         <project path="kernel/xiaomi/alioth" 
-                name="AliothDevelopment/kernel_xiaomi_alioth" 
+                name="ArrowOS-Devices/android_kernel_xiaomi_alioth" 
                 remote="github"
-                revision="los-18.1" />
+                revision="arrow-11.0" />
 
         <!-- hardware -->
         <remove-project name="LineageOS/android_hardware_qcom_display" />
