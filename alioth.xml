@@ -14,9 +14,9 @@
                 revision="12.5.1" />
         <!-- kernel -->
         <project path="kernel/xiaomi/alioth" 
-                name="ArrowOS-Devices/android_kernel_xiaomi_alioth" 
+                name="AliothDevelopment/android_kernel_xiaomi_alioth" 
                 remote="github"
-                revision="arrow-11.0" />
+                revision="QC-177" />
 
         <!-- hardware -->
         <remove-project name="LineageOS/android_hardware_qcom_display" />
